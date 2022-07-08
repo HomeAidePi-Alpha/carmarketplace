@@ -1,4 +1,4 @@
-package com.geekymon2.carmarketplace.core.exception.jwt;
+package com.homeaidepi.carmarketplace.core.exception.jwt;
 
 import javax.naming.AuthenticationException;
 

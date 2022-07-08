@@ -1,4 +1,4 @@
-package com.geekymon2.carmarketplace.core.security.autoconfiguration.properties;
+package com.homeaidepi.carmarketplace.core.security.autoconfiguration.properties;
 
 import lombok.Getter;
 import lombok.Setter;

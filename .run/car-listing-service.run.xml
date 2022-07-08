@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="car-listing-service" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="com.geekymon2.carmarketplace.carlistingservice.CarListingServiceApplication" />
+    <option name="MAIN_CLASS_NAME" value="com.homeaidepi.carmarketplace.carlistingservice.CarListingServiceApplication" />
     <module name="car-listing-service" />
     <extension name="net.ashald.envfile">
       <option name="IS_ENABLED" value="false" />

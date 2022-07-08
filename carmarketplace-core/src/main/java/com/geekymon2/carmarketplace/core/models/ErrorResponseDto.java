@@ -1,4 +1,4 @@
-package com.geekymon2.carmarketplace.core.models;
+package com.homeaidepi.carmarketplace.core.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

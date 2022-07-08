@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.geekymon2.carmarketplace.core.security.autoconfiguration.ApiAuthAutoConfig
+com.homeaidepi.carmarketplace.core.security.autoconfiguration.ApiAuthAutoConfig

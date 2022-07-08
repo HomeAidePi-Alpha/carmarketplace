@@ -1,4 +1,4 @@
-package com.geekymon2.carmarketplace.core.entities;
+package com.homeaidepi.carmarketplace.core.entities;
 
 public enum CarMakeName {
     FORD,

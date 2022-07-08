@@ -76,7 +76,7 @@
 				"type": "java",
 				"name": "CarApiGatewayApplication",
 				"request": "launch",
-				"mainClass": "com.geekymon2.carmarketplace.apigateway.CarApiGatewayApplication",
+				"mainClass": "com.homeaidepi.carmarketplace.apigateway.CarApiGatewayApplication",
 				"projectName": "car-apigateway",
 				"preLaunchTask": "sleep20",
 				"envFile": "${workspaceFolder:carmarketplace}/.localenv"	
@@ -86,7 +86,7 @@
 				"type": "java",
 				"name": "CarInfoServiceApplication",
 				"request": "launch",
-				"mainClass": "com.geekymon2.carmarketplace.carinfoservice.CarInfoServiceApplication",
+				"mainClass": "com.homeaidepi.carmarketplace.carinfoservice.CarInfoServiceApplication",
 				"projectName": "car-info-service",
 				"preLaunchTask": "sleep5",
 				"envFile": "${workspaceFolder:carmarketplace}/.localenv"	
@@ -95,7 +95,7 @@
 				"type": "java",
 				"name": "CarListingServiceApplication",
 				"request": "launch",
-				"mainClass": "com.geekymon2.carmarketplace.carlistingservice.CarListingServiceApplication",
+				"mainClass": "com.homeaidepi.carmarketplace.carlistingservice.CarListingServiceApplication",
 				"projectName": "car-listing-service",
 				"preLaunchTask": "sleep5",				
 				"envFile": "${workspaceFolder:carmarketplace}/.localenv"			
@@ -104,7 +104,7 @@
 				"type": "java",
 				"name": "ConfigServerApplication",
 				"request": "launch",
-				"mainClass": "com.geekymon2.carmarketplace.configserver.ConfigServerApplication",
+				"mainClass": "com.homeaidepi.carmarketplace.configserver.ConfigServerApplication",
 				"projectName": "config-server",
 				"envFile": "${workspaceFolder:carmarketplace}/.localenv"
 			},
@@ -112,7 +112,7 @@
 				"type": "java",
 				"name": "DiscoveryServerApplication",
 				"request": "launch",
-				"mainClass": "com.geekymon2.carmarketplace.discoveryserver.DiscoveryServerApplication",
+				"mainClass": "com.homeaidepi.carmarketplace.discoveryserver.DiscoveryServerApplication",
 				"projectName": "discovery-server",
 				"envFile": "${workspaceFolder:carmarketplace}/.localenv"		
 			},
@@ -120,7 +120,7 @@
 				"type": "java",
 				"name": "ImageStoreServiceApplication",
 				"request": "launch",
-				"mainClass": "com.geekymon2.carmarketplace.carimagestoreservice.ImageStoreServiceApplication",
+				"mainClass": "com.homeaidepi.carmarketplace.carimagestoreservice.ImageStoreServiceApplication",
 				"projectName": "imagestore-service",
 				"envFile": "${workspaceFolder:carmarketplace}/.localenv"		
 			},
@@ -130,7 +130,7 @@
 				"type": "pwa-chrome",
 				//Entrypoint should point to API Gateway
 				"url": "http://localhost:8008/swagger-ui/",
-				"webRoot": "$M2/Development/GeekyMon2/carmarketplace",
+				"webRoot": "$M2/Development/homeaidepi/carmarketplace",
 				"preLaunchTask": "sleep20"
 			},
 		],

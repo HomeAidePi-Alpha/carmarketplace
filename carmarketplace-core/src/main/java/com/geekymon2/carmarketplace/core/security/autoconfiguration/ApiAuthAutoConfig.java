@@ -1,10 +1,10 @@
-package com.geekymon2.carmarketplace.core.security.autoconfiguration;
+package com.homeaidepi.carmarketplace.core.security.autoconfiguration;
 
-import com.geekymon2.carmarketplace.core.security.autoconfiguration.filter.ApiAuthFilter;
-import com.geekymon2.carmarketplace.core.security.autoconfiguration.jwt.JwtTokenUtil;
-import com.geekymon2.carmarketplace.core.security.autoconfiguration.properties.JwtConfig;
-import com.geekymon2.carmarketplace.core.security.autoconfiguration.validator.RouterValidator;
-import com.geekymon2.carmarketplace.core.security.autoconfiguration.properties.ApiConfig;
+import com.homeaidepi.carmarketplace.core.security.autoconfiguration.filter.ApiAuthFilter;
+import com.homeaidepi.carmarketplace.core.security.autoconfiguration.jwt.JwtTokenUtil;
+import com.homeaidepi.carmarketplace.core.security.autoconfiguration.properties.JwtConfig;
+import com.homeaidepi.carmarketplace.core.security.autoconfiguration.validator.RouterValidator;
+import com.homeaidepi.carmarketplace.core.security.autoconfiguration.properties.ApiConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

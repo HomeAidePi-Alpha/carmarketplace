@@ -4,7 +4,7 @@
       <env name="ENVIRONMENT" value="localhost" />
       <env name="SPRING_PROFILES_ACTIVE" value="default" />
     </envs>
-    <option name="MAIN_CLASS_NAME" value="com.geekymon2.carmarketplace.apigateway.CarApiGatewayApplication" />
+    <option name="MAIN_CLASS_NAME" value="com.homeaidepi.carmarketplace.apigateway.CarApiGatewayApplication" />
     <module name="car-apigateway" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../carmarketplace-apigateway" />
     <extension name="net.ashald.envfile">

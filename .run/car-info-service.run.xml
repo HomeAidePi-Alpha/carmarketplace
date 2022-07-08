@@ -6,7 +6,7 @@
       <env name="ENVIRONMENT" value="localhost" />
       <env name="SPRING_PROFILES_ACTIVE" value="default" />
     </envs>
-    <option name="MAIN_CLASS_NAME" value="com.geekymon2.carmarketplace.carinfoservice.CarInfoServiceApplication" />
+    <option name="MAIN_CLASS_NAME" value="com.homeaidepi.carmarketplace.carinfoservice.CarInfoServiceApplication" />
     <module name="car-info-service" />
     <extension name="net.ashald.envfile">
       <option name="IS_ENABLED" value="false" />

@@ -1,4 +1,4 @@
-package com.geekymon2.carmarketplace.core.exception;
+package com.homeaidepi.carmarketplace.core.exception;
 
 public class InvalidParameterException  extends RuntimeException {
     private static final long serialVersionUID = 1L;

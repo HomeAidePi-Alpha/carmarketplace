@@ -1,14 +1,14 @@
-package com.geekymon2.carmarketplace.core.security.autoconfiguration.filter;
+package com.homeaidepi.carmarketplace.core.security.autoconfiguration.filter;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.geekymon2.carmarketplace.core.exception.jwt.JwtTokenIncorrectStructureException;
-import com.geekymon2.carmarketplace.core.exception.jwt.JwtTokenMalformedException;
-import com.geekymon2.carmarketplace.core.exception.jwt.JwtTokenMissingException;
-import com.geekymon2.carmarketplace.core.models.ErrorResponseDto;
-import com.geekymon2.carmarketplace.core.security.autoconfiguration.jwt.JwtTokenUtil;
-import com.geekymon2.carmarketplace.core.security.autoconfiguration.validator.RouterValidator;
-import com.geekymon2.carmarketplace.core.security.autoconfiguration.properties.ApiConfig;
+import com.homeaidepi.carmarketplace.core.exception.jwt.JwtTokenIncorrectStructureException;
+import com.homeaidepi.carmarketplace.core.exception.jwt.JwtTokenMalformedException;
+import com.homeaidepi.carmarketplace.core.exception.jwt.JwtTokenMissingException;
+import com.homeaidepi.carmarketplace.core.models.ErrorResponseDto;
+import com.homeaidepi.carmarketplace.core.security.autoconfiguration.jwt.JwtTokenUtil;
+import com.homeaidepi.carmarketplace.core.security.autoconfiguration.validator.RouterValidator;
+import com.homeaidepi.carmarketplace.core.security.autoconfiguration.properties.ApiConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

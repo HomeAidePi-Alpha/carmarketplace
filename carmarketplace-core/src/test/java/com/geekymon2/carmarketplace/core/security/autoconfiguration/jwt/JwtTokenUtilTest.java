@@ -1,9 +1,9 @@
-package com.geekymon2.carmarketplace.core.security.autoconfiguration.jwt;
+package com.homeaidepi.carmarketplace.core.security.autoconfiguration.jwt;
 
-import com.geekymon2.carmarketplace.core.exception.jwt.JwtTokenIncorrectStructureException;
-import com.geekymon2.carmarketplace.core.exception.jwt.JwtTokenMalformedException;
-import com.geekymon2.carmarketplace.core.exception.jwt.JwtTokenMissingException;
-import com.geekymon2.carmarketplace.core.security.autoconfiguration.properties.JwtConfig;
+import com.homeaidepi.carmarketplace.core.exception.jwt.JwtTokenIncorrectStructureException;
+import com.homeaidepi.carmarketplace.core.exception.jwt.JwtTokenMalformedException;
+import com.homeaidepi.carmarketplace.core.exception.jwt.JwtTokenMissingException;
+import com.homeaidepi.carmarketplace.core.security.autoconfiguration.properties.JwtConfig;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
